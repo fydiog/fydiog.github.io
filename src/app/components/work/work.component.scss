@@ -1,0 +1,32 @@
+.wrapper {
+  padding: 5rem 15rem;
+  margin-bottom: 5rem;
+  // scroll-snap-align: start;
+}
+
+.work {
+  width: 100%;
+  .project {
+    display: flex;
+
+    div {
+      width: 50%;
+    }
+  }
+}
+
+.project {
+  /*flex*/
+  display: flex;
+  height: 29.0625rem;
+  border-bottom: solid 1px var(--primary-color);
+  margin-bottom: 8.75rem;
+  scroll-snap-align: center;
+
+  .project-img {
+    img {
+      height: 22.5rem;
+      width: 45rem;
+    }
+  }
+}

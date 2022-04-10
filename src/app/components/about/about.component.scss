@@ -1,0 +1,43 @@
+.wrapper {
+  padding: 0 15rem;
+  height: 47.8125rem;
+}
+
+.about {
+  display: flex;
+  width: 100%;
+  div {
+    width: 50%;
+  }
+}
+
+.section-left {
+  h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--primary-text);
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.section-right {
+  display: flex;
+  align-items: center;
+  p {
+    font-size: 1.875rem;
+    font-weight: 400;
+    color: var(--secondary-text);
+  }
+}
+
+.arrow {
+  width: 50%;
+  /*flex*/
+  display: flex;
+  font-size: 8rem;
+  margin-top: 12rem;
+  color: var(--icon-color);
+}

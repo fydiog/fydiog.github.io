@@ -1,0 +1,41 @@
+header {
+  position: sticky;
+  width: 100%;
+  height: 21.875rem;
+  padding: 2rem 15rem 0 7.5rem;
+  scroll-snap-align: start;
+  overflow-y: scroll;
+}
+
+.wrapper {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-left {
+  .logo {
+    width: 4rem;
+    cursor: pointer;
+  }
+
+  .logo svg {
+    fill: var(--icon-color);
+  }
+}
+
+.section-right {
+  .menu-list {
+    list-style: none;
+    display: flex;
+  }
+  .menu-item {
+    font-weight: 500;
+    color: var(--primary-text);
+    cursor: pointer;
+  }
+  .menu-item:not(:last-child) {
+    margin-right: 2.875rem;
+  }
+}

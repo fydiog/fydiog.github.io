@@ -1,0 +1,23 @@
+footer{
+    padding: 5rem 15rem;
+    /*flex*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    scroll-snap-align: center;
+
+}
+
+.socials{
+
+    ul{
+        /*flex*/
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .social-item:not(:last-child){
+        margin-right: 2.875rem;
+    }
+}

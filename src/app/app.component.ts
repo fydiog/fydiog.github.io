@@ -12,8 +12,6 @@ export class AppComponent implements OnInit {
   loadingBarHeight:string = '4px';
   
   constructor(private themeService:ThemeService){
-
-   
   }
 
   get loadingBarColor(){

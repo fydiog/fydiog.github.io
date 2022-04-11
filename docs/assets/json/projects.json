@@ -1,24 +1,27 @@
 [
     {
-        "title": "PROJECT ONE",
-        "description1": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
-        "description2": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
-        "img": "../../../assets/img/project-1.png",
-        "link": "google.es"
+        "title": "FYFIT",
+        "description1": "This was my probably my first real project. Used as personal training app, I always wanted to have a simple way to track my workouts, so I made the perfect app for myself.",
+        "description2": "Stack: Android (Java) + Firebase Realtime Database.",
+        "src": "../../../assets/img/project-1.png",
+        "srcType":"img",
+        "link": "https://imgur.com/a/A1wSXNP"
     },
     {
-        "title": "PROJECT TWO",
-        "description1": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
-        "description2": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
-        "img": "../../../assets/img/project-1.png",
-        "link": "google.es"
+        "title": "DARK MINIMALISTIC PORTFOLIO",
+        "description1": "My previous portfolio features mostly black & white colors. ",
+        "description2": "It also has a light theme version for a better UX - while you scroll down your cursor will snap onto the different sections",
+        "src": "../../../assets/img/project-2.png",
+        "srcType":"img",
+        "link": "/oldportfolio"
     },
     {
-        "title": "PROJECT THREE",
-        "description1": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
-        "description2": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
-        "img": "../../../assets/img/project-1.png",
-        "link": "google.es"
+        "title": "F-WARE",
+        "description1": "A script for videogame Rust, it fully or partially removes recoil from guns by moving the players relative mouse position.",
+        "description2": "It calculates how many rounds each gun shoots per minute, and therefore moves to a certain position on the screen per each bullet. Coded as WindowsConsoleApp in C++",
+        "src": "../../../assets/img/project-3.png",
+        "srcType":"img",
+        "link": "https://www.youtube.com/watch?v=eMtY8xUAePI"
     }
     
 ]

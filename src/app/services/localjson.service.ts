@@ -10,6 +10,7 @@ export class LocalJSONService {
   constructor(private http:HttpClient) { }
 
   getLocalJSON(fileName:String):Observable<any>{
-    return this.http.get(`../../assets/json/${fileName}.json`)
+    // return this.http.get(`../../assets/json/${fileName}.json`)
+    return this.http.get(`/assets/json/${fileName}.json`)
   }
 }

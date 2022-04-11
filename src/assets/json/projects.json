@@ -1,0 +1,24 @@
+[
+    {
+        "title": "PROJECT ONE",
+        "description1": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
+        "description2": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
+        "img": "../../../assets/img/project-1.png",
+        "link": "google.es"
+    },
+    {
+        "title": "PROJECT TWO",
+        "description1": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
+        "description2": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
+        "img": "../../../assets/img/project-1.png",
+        "link": "google.es"
+    },
+    {
+        "title": "PROJECT THREE",
+        "description1": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
+        "description2": "Goblin concept digital sculpture with human-like skin. Learned a lot of quick tips and look development.",
+        "img": "../../../assets/img/project-1.png",
+        "link": "google.es"
+    }
+    
+]

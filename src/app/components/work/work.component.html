@@ -1,54 +1,23 @@
 <div class="wrapper">
-  <section class="work">
+  <section class="work" *ngFor="let project of projects; let i = index">
     <div class="project">
       <div class="project-info">
-        <h3>01 / PROJECT NAME</h3>
-        <p>
-          Goblin concept digital sculpture with human-like skin. Learned a lot
-          of quick tips and look development.
-        </p>
-        <p>
-          Goblin concept digital sculpture with human-like skin. Learned a lot
-          of quick tips and look development.
-        </p>
-        <a href="">Link</a>
+        <div>
+          <h3>
+            {{ i + 1 }} /
+            {{ project.title }}
+          </h3>
+          <p>
+            {{ project.description1 }}<br />
+            {{ project.description2 }}
+          </p>
+        </div>
+        <a href="{{ project.link }}"
+          >More about this project<i class="uil uil-external-link-alt"></i
+        ></a>
       </div>
       <div class="project-img">
-        <img src="../../../assets/img/project-1.png" alt="" />
-      </div>
-    </div>
-    <div class="project">
-      <div class="project-info">
-        <h3>02 / PROJECT NAME</h3>
-        <p>
-          Goblin concept digital sculpture with human-like skin. Learned a lot
-          of quick tips and look development.
-        </p>
-        <p>
-          Goblin concept digital sculpture with human-like skin. Learned a lot
-          of quick tips and look development.
-        </p>
-        <a href="">Link</a>
-      </div>
-      <div class="project-img">
-        <img src="../../../assets/img/project-1.png" alt="" />
-      </div>
-    </div>
-    <div class="project">
-      <div class="project-info">
-        <h3>02 / PROJECT NAME</h3>
-        <p>
-          Goblin concept digital sculpture with human-like skin. Learned a lot
-          of quick tips and look development.
-        </p>
-        <p>
-          Goblin concept digital sculpture with human-like skin. Learned a lot
-          of quick tips and look development.
-        </p>
-        <a href="">Link</a>
-      </div>
-      <div class="project-img">
-        <img src="../../../assets/img/project-1.png" alt="" />
+        <img src="{{ project.img }}" alt="" />
       </div>
     </div>
   </section>

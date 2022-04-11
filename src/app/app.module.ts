@@ -16,6 +16,9 @@ import { WorkComponent } from './components/work/work.component';
 import { AboutComponent } from './components/about/about.component';
 import { MainComponent } from './components/main/main.component';
 import { ThemeSwitcherComponent } from './components/theme-switcher/theme-switcher.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { MyServicesComponent } from './components/my-services/my-services.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 
 
@@ -27,12 +30,16 @@ import { ThemeSwitcherComponent } from './components/theme-switcher/theme-switch
     WorkComponent,
     AboutComponent,
     MainComponent,
-    ThemeSwitcherComponent
+    ThemeSwitcherComponent,
+    AboutMeComponent,
+    MyServicesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     LoadingBarRouterModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

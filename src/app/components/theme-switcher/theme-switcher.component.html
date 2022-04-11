@@ -1,1 +1,6 @@
-<button (click)="switchTheme()">SAMUEL</button>
+<!-- <button (click)="switchTheme()">SAMUEL</button> -->
+<div
+  [ngClass]="currentTheme == 'light' ? 'uil uil-moon' : 'uil uil-lightbulb'"
+  id="theme-toggler"
+  (click)="switchTheme()"
+></div>

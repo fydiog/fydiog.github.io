@@ -1,5 +1,8 @@
-<ngx-loading-bar color="black" height="4px"></ngx-loading-bar>
-<app-header theme></app-header>
+<ngx-loading-bar
+  [color]="loadingBarColor"
+  [height]="loadingBarHeight"
+></ngx-loading-bar>
+<app-header></app-header>
 <app-theme-switcher></app-theme-switcher>
 <router-outlet></router-outlet>
 <app-footer></app-footer>

@@ -1,0 +1,50 @@
+<div class="wrapper">
+  <section class="about">
+    <div class="section-left">
+      <h1 class="animate__animated animate__backInLeft animation-2">
+        My name is<br />
+        Fidel Mangold,
+      </h1>
+      <h2 class="animate__animated animate__fadeInUpBig animation-8">
+        I'm a Junior Frontend Developer & Designer
+      </h2>
+      <p class="animate__animated animate__fadeInUpBig animation-12">
+        From a young age I began to mess with computers and to be self-taught,
+        all this has given me the experience to make any project a success. I
+        enjoy every part of the process and always work with the utmost detail.
+      </p>
+    </div>
+
+    <div class="section-right">
+      <img
+        class="animate__animated animate__fadeInUpBig animate__fast"
+        src="../../../assets/img/about.jpg"
+        alt=""
+      />
+    </div>
+  </section>
+  <div class="skills">
+    <div>
+      <h3>Main Skills</h3>
+      <p *ngFor="let skill of hardSkills; let i = index">
+        {{ skill.name }}<span *ngIf="i < hardSkills.length - 1">,</span>
+      </p>
+    </div>
+    <div>
+      <h3>Soft Skills</h3>
+      <p *ngFor="let skill of softSkills; let i = index">
+        {{ skill.name }}<span *ngIf="i < softSkills.length - 1">,</span>
+      </p>
+    </div>
+  </div>
+  <div class="contact">
+    <div class="next-level">
+      <h2>I am willing to take your project to the next level</h2>
+      <i class="uil uil-arrow-right"></i>
+    </div>
+    <div class="email">
+      <h2>fydiog@gmail.com</h2>
+      <a href="../../../assets/img/CV_FidelMangold.pdf">Download CV</a>
+    </div>
+  </div>
+</div>

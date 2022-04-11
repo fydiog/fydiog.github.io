@@ -9,7 +9,7 @@
   .project {
     display: flex;
 
-    div {
+    > div {
       width: 50%;
     }
   }
@@ -19,9 +19,31 @@
   /*flex*/
   display: flex;
   height: 29.0625rem;
-  border-bottom: solid 1px var(--primary-color);
+  border-bottom: solid 1.5px var(--primary-text);
   margin-bottom: 8.75rem;
   scroll-snap-align: center;
+  color: var(--primary-text);
+
+  a {
+    font-family: var(--inter);
+    font-weight: 500;
+    font-size: 1.2em;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: var(--primary-text);
+  }
+
+  .project-info {
+    div {
+      width: 70%;
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 5rem;
+  }
 
   .project-img {
     img {

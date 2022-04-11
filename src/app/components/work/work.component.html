@@ -16,8 +16,8 @@
           >More about this project<i class="uil uil-external-link-alt"></i
         ></a>
       </div>
-      <div class="project-img">
-        <img src="{{ project.img }}" alt="" />
+      <div class="project-img" *ngIf="project.srcType == 'img'">
+        <a href="{{ project.link }}"><img src="{{ project.src }}" alt="" /></a>
       </div>
     </div>
   </section>

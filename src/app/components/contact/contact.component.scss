@@ -11,10 +11,20 @@
   h1 {
     font-size: 2rem;
   }
+
+  margin-bottom: 10rem;
 }
 
 .contact-text {
+  width: 40%;
   margin-bottom: 2rem;
+  /*flex*/
+  display: flex;
+  flex-direction: column;
+
+  p {
+    width: 80%;
+  }
 }
 
 .form-container {

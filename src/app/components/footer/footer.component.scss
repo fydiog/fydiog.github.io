@@ -18,6 +18,14 @@ footer {
     list-style: none;
   }
 
+  .social-item a {
+    text-decoration: none;
+
+    i {
+      margin-right: 0.5rem;
+    }
+  }
+
   .social-item:not(:last-child) {
     margin-right: 2.875rem;
   }

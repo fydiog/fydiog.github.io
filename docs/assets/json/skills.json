@@ -1,0 +1,55 @@
+[
+    {
+        "type":"hard",
+        "name":"Angular"
+    },
+    {
+        "type":"hard",
+        "name":"NodeJS"
+    },
+    {
+        "type":"hard",
+        "name":"MongoDB"
+    },
+    {
+        "type":"hard",
+        "name":"Javascript"
+    },
+    {
+        "type":"hard",
+        "name":"PHP"
+    },
+    {
+        "type":"hard",
+        "name":"SQL"
+    },
+    {
+        "type":"hard",
+        "name":"HTML"
+    },
+    {
+        "type":"hard",
+        "name":"CSS"
+    },
+    {
+        "type":"hard",
+        "name":"Adobe Tools"
+    },
+    {
+        "type":"soft",
+        "name":"Fast-learning"
+    },
+    {
+        "type":"soft",
+        "name":"Flexibility"
+    },
+    {
+        "type":"soft",
+        "name":"Problem-solving"
+    },
+    {
+        "type":"soft",
+        "name":"Attention to detail"
+    }
+    
+]

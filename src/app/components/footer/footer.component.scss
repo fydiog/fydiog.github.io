@@ -30,3 +30,18 @@ footer {
     margin-right: 2.875rem;
   }
 }
+
+@media (max-width: 43rem) {
+  footer {
+    padding: 5rem 3rem;
+    flex-direction: column;
+    text-align: center;
+    // display: none;
+  }
+  .copyright {
+    margin-bottom: 2rem;
+    span {
+      display: block;
+    }
+  }
+}

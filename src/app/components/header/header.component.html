@@ -4,7 +4,7 @@
       <div class="logo" routerLink="/">
         <svg
           version="1.1"
-          id="Capa_1"
+          id="logo_svg"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           x="0px"
@@ -45,7 +45,7 @@
       </div>
     </div>
     <div class="section-right">
-      <nav>
+      <nav id="menu-desk">
         <ul class="menu-list">
           <!-- <li class="menu-item" *ngFor="let item of [1, 1, 1, 1]">
             <span class="link">Link</span>
@@ -63,6 +63,39 @@
           <li class="menu-item" routerLink="contact">Contact</li>
         </ul>
       </nav>
+      <div id="menu_mob">
+        <nav role="menu_nav">
+          <div id="menuToggle">
+            <input type="checkbox" id="chk-mob" (click)="handleToggle()" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul
+              id="menu-mobile"
+              class="animate__animated animate__fadeIn animate__slow"
+              [style.display]="currentStyle"
+            >
+              <li
+                class="home-btn"
+                *ngIf="!router.isActive('/', true)"
+                routerLink="/"
+              >
+                <i class="uil uil-estate"></i>
+              </li>
+              <li class="mobile-menu-item">
+                <a routerLink="work">Work</a>
+              </li>
+              <li class="mobile-menu-item"><a routerLink="about">About</a></li>
+              <li class="mobile-menu-item">
+                <a routerLink="services">Services</a>
+              </li>
+              <li class="mobile-menu-item">
+                <a routerLink="contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
     </div>
   </div>
 </header>

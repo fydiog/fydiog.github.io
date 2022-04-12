@@ -41,3 +41,41 @@
   margin-top: 15rem;
   color: var(--icon-color);
 }
+
+@media (max-width: 43rem) {
+  .wrapper {
+    height: 100vh;
+    padding: 0 5rem;
+    width: 100vw;
+    display: flex;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+    div {
+      width: 100%;
+    }
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .section-left {
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .section-right {
+    h2 {
+      font-size: 1.375rem;
+    }
+
+    br {
+      display: block;
+      margin: 2px 0;
+    }
+  }
+}

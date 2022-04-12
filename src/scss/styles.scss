@@ -80,3 +80,10 @@ html::-webkit-scrollbar {
     transform: translateY(-15px);
   }
 }
+
+@media (max-width: 43rem) {
+  html,
+  body {
+    scroll-snap-type: none;
+  }
+}

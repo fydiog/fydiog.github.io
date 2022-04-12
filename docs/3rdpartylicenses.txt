@@ -16,6 +16,9 @@ MIT
 @ngx-loading-bar/core
 MIT
 
+@ngx-loading-bar/http-client
+MIT
+
 @ngx-loading-bar/router
 MIT
 

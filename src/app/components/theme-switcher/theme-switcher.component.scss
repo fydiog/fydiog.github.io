@@ -11,3 +11,9 @@
   border-radius: 5px;
   pointer-events: none;
 }
+
+@media (max-width: 43rem) {
+  #theme-toggler {
+    display: none;
+  }
+}

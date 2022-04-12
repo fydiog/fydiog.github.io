@@ -6,7 +6,7 @@
 .about {
   display: flex;
   width: 100%;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
 .section-left {
@@ -98,6 +98,92 @@
 
     a {
       color: var(--primary-text);
+    }
+  }
+}
+
+@media (max-width: 43rem) {
+  .wrapper {
+    padding: 0 5rem 0rem 3rem;
+  }
+  .about {
+    flex-direction: column;
+  }
+
+  .section-left,
+  .section-right {
+    width: 100%;
+  }
+
+  .section-left {
+    > h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    > h2 {
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    > p {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .section-right {
+    /*flex*/
+    display: flex;
+    justify-content: flex-start;
+    img {
+      max-width: 100%;
+      max-height: 25rem;
+    }
+  }
+
+  .skills {
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  .skills > div {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 0.1rem;
+    margin-right: 3rem;
+    h3 {
+      margin-right: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      span {
+        visibility: hidden;
+      }
+    }
+  }
+
+  .contact {
+    flex-direction: column;
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .next-level {
+    margin-bottom: 2rem;
+  }
+
+  .email {
+    h2 {
+      font-weight: 600;
+    }
+    a {
+      color: var(--secondary-text);
     }
   }
 }

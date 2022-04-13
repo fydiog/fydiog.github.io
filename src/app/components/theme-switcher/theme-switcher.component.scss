@@ -10,9 +10,16 @@
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   pointer-events: none;
+  z-index: 1600;
 }
 
 @media (max-width: 43rem) {
+  #theme-toggler {
+    display: none;
+  }
+}
+
+@media (max-width: 62rem) {
   #theme-toggler {
     display: none;
   }

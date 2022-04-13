@@ -94,3 +94,35 @@ textarea {
 .close-alert-btn {
   cursor: pointer;
 }
+
+@media (max-width: 43rem) {
+  .wrapper {
+    padding: inherit !important;
+    padding-left: 2rem !important;
+  }
+
+  .contact {
+    width: 90%;
+    align-items: flex-start;
+  }
+  .contact-text {
+    width: 100%;
+    p {
+      width: 80%;
+    }
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .form-btn-submit {
+    width: 100%;
+  }
+}
+
+@media (max-width: 62rem) {
+  .wrapper {
+    padding: 0 5rem;
+  }
+}

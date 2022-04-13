@@ -9,19 +9,22 @@ import { Router } from '@angular/router';
 export class HeaderComponent implements OnInit {
 
   menuToggled:boolean = false;
+  menuClass:String = '';
 
   constructor(public router: Router) { }
 
   ngOnInit(): void {
   }
 
-  handleToggle(){
+  toggleMobileMenu(){
     this.menuToggled = !this.menuToggled;
+    this.handleClass();
   }
 
-  get currentStyle():String{
-      if (this.menuToggled) return 'flex';
-      else return 'none';
+  handleClass():void{
+      if (this.menuToggled){
+        this.menuClass = 'open animate__animated animate__fadeIn animate__faster';
+      } else this.menuClass = '';
   }
 
 }
